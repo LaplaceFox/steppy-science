@@ -31,7 +31,7 @@ class Chart:
     def __init__(self, tagDict, ind): #takes an ouput from parse() and an index of which chart to read, copies relevant details
         chart = tagDict["NOTES"][ind] #get the chart we want
         chart = list(map(lambda x: x.strip(), chart.split(":"))) #split into properties
-        self.notes = list(map(lambda x: x.strip().split("\n"), chart[-1].split(","))) #take just the notes, split into measures
+        self.measures = list(map(lambda x: x.strip().split("\n"), chart[-1].split(","))) #take just the notes, split into measures
 
         self.name = tagDict["TITLE"]
         self.artist = tagDict["ARTIST"]
@@ -45,3 +45,19 @@ class Chart:
             self.stops = [];
         else:
             self.stops = list(map(lambda x: tuple(map(lambda y: float(y),x.split("="))), stops))
+        
+        self.measuresToNotes()
+
+    def measuresToNotes(self):
+        notes = []
+        for i in range(len(self.measures)):
+            measure = self.measures[i]
+            div = len(measure) #division within measure
+            for j in range(div):
+                if measure[j] != "0000":
+                    beat = (i + j/div) * 4
+                    notes.append((beat, measure[j]))
+        self.notes = notes
+
+    def beatsToSec(self): #scan through chart, keeping track of the next BPM change or stop, converting beat differences to seconds
+        pass
