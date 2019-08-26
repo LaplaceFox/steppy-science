@@ -1,3 +1,5 @@
+from copy import deepcopy as copy
+
 def parse(path):
     tagDict = {"NOTES":[]}
 
@@ -48,6 +50,8 @@ class Chart:
         
         self.measuresToNotes()
 
+        self.beatsToSec()
+
     def measuresToNotes(self):
         notes = []
         for i in range(len(self.measures)):
@@ -60,4 +64,36 @@ class Chart:
         self.notes = notes
 
     def beatsToSec(self): #scan through chart, keeping track of the next BPM change or stop, converting beat differences to seconds
-        pass
+        bpms = copy(self.bpms)
+        assert(len(bpms) > 0) #need to have an initial bpm
+
+        (lastBeat,curBPM) = bpms.pop(0)
+        assert(lastBeat == 0) #make sure the first BPM is actually at the beginning
+        lastTime = 0
+
+        taggedNotes = list(map(lambda x: (x[0], 0, x[1]), self.notes)) #replace (beat, note) with (beat, 0, note)
+        taggedStops = list(map(lambda x: (x[0], 1, x[1]), self.stops)) #replace (beat, sec) with (beat, 1, sec)
+        taggedBPMS = list(map(lambda x: (x[0], 2, x[1]), bpms)) #replace (beat, bpm) with (beat, 2, bpm)
+
+        events = sorted((taggedNotes + taggedStops + taggedBPMS))
+        
+        notetimes = []
+
+        for (beat, etype, val) in events:
+            if etype == 1: #stop
+                lastBeat = beat
+                lastTime += val
+            else:
+                beatDiff = beat - lastBeat
+                timeDiff = 60/curBPM * beatDiff
+
+                lastBeat = beat
+                lastTime += timeDiff
+                if etype == 0:
+                    notetimes.append((lastTime, val))
+                else:
+                    curBPM = val
+
+        firstTime = notetimes[0][0]
+        self.notetimes = list(map(lambda x: (round(x[0]-firstTime,4),x[1]), notetimes))
+        print(self.notetimes)
