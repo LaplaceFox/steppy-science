@@ -1,4 +1,5 @@
 from urllib.request import urlopen
+from urllib.parse import quote
 
 class Song:
     def __init__(self, line):
@@ -37,6 +38,7 @@ class Song:
 
 def fixtitle(title):
     url = "https://remywiki.com/index.php?search=" + title
+    url = quote(url.encode('utf8'), ':/?=') #percent-encode the unicode characters
     html = urlopen(url).read()
     pagetitle = str(html).split("<title>")[1].split("</title>")[0]
     return pagetitle[:-11]
