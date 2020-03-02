@@ -36,9 +36,42 @@ class Song:
 
         return disp
 
+def getfirststring(html):
+    result = ""
+    head = 0
+    
+    inquote = False
+    #find opening quote
+    while True:
+        if html[head] == "\\": #escape char
+            if inquote:
+                result += html[head+1]
+            head += 2
+            continue
+        elif html[head] == "\"":
+            if not inquote: #opening quote
+                inquote = True
+                head += 1
+                continue
+            else: #closing quote
+                break
+        
+        if inquote:
+            result += html[head]
+        head += 1
+    return result
+
 def fixtitle(title):
     url = "https://remywiki.com/index.php?search=" + title
     url = quote(url.encode('utf8'), ':/?=') #percent-encode the unicode characters
     html = urlopen(url).read()
     pagetitle = str(html).split("<title>")[1].split("</title>")[0]
-    return pagetitle[:-11]
+
+    if "Search results" not in pagetitle:
+        return getfirststring('"' + pagetitle[:-11] + '"') #escape char handling
+    else:
+        searchheading = str(html).split("mw-search-result-heading")[1]
+        searchheading = searchheading.split("title=")[1]
+        return getfirststring(searchheading)
+#debug
+musiclines = open("master_music.txt").readlines()
