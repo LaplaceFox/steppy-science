@@ -1,6 +1,9 @@
 from urllib.request import urlopen
 from urllib.parse import quote
 
+s_diffs = ["GSP", "BSP", "DSP", "ESP", "CSP"]
+d_diffs = ["BDP", "DDP", "EDP", "CDP"] 
+
 class Song:
     def __init__(self, line):
         split = line.split("\t")
@@ -9,8 +12,21 @@ class Song:
         self.id = split[0]
         self.singles = list(map(lambda x: int(x), split[2:7]))
         self.doubles = list(map(lambda x: int(x), split[7:11]))
-        self.title = fixtitle(split[11])
+        try:
+            self.title = fixtitle(split[11])
+        except:
+            self.title = "ERROR ERROR ERROR OH NO"
         self.artist = split[12].strip()
+
+    def charts_csv(self):
+        result = ""
+        for i in range(len(self.singles)):
+            if self.singles[i] != -1:
+                result += "%s,, %s,, %s\n"%(self.title, s_diffs[i], str(self.singles[i]))
+        for i in range(len(self.doubles)):
+            if self.doubles[i] != -1:
+                result += "%s,, %s,, %s\n"%(self.title, d_diffs[i], str(self.doubles[i]))
+        return result
 
     def __repr__(self):
         disp  = "Title: %s\n"%(self.title)
@@ -18,7 +34,6 @@ class Song:
 
         #convert to strings
         singles = list(map(lambda x: str(x) if x > 0 else "-", self.singles))
-        s_diffs = ["GSP", "BSP", "DSP", "ESP", "CSP"]
 
         #difficulty labels
         for i in range(len(s_diffs)):
@@ -28,7 +43,6 @@ class Song:
 
         #convert to strings
         doubles = list(map(lambda x: str(x) if x > 0 else "-", self.doubles))
-        d_diffs = ["BDP", "DDP", "EDP", "CDP"]
 
         #difficulty labels
         for i in range(len(d_diffs)):
@@ -68,10 +82,28 @@ def fixtitle(title):
     pagetitle = str(html).split("<title>")[1].split("</title>")[0]
 
     if "Search results" not in pagetitle:
-        return getfirststring('"' + pagetitle[:-11] + '"') #escape char handling
+        result = getfirststring('"' + pagetitle[:-11] + '"') #escape char handling
     else:
         searchheading = str(html).split("mw-search-result-heading")[1]
         searchheading = searchheading.split("title=")[1]
-        return getfirststring(searchheading)
-#debug
-musiclines = open("master_music.txt").readlines()
+        result = getfirststring(searchheading)
+
+    return result.replace("&amp;","&").replace("&#039;","'")
+
+def make_chart_list():
+    f = open("master_music.txt")
+    musiclines = f.readlines()
+    f.close()
+    f = open("chart_list.csv","w")
+    for i in range(len(musiclines)):
+        print("[%s/%s]"%(str(i),str(len(musiclines))))
+        f.write(Song(musiclines[i]).charts_csv())
+
+def make_song_list():
+    f = open("master_music.txt")
+    musiclines = f.readlines()
+    f.close()
+    f = open("song_list.csv","w")
+    for i in range(len(musiclines)):
+        print("[%s/%s]"%(str(i),str(len(musiclines))))
+        f.write("%s,,%s\n"%(str(i),Song(musiclines[i]).title))
