@@ -5,27 +5,32 @@ s_diffs = ["GSP", "BSP", "DSP", "ESP", "CSP"]
 d_diffs = ["BDP", "DDP", "EDP", "CDP"] 
 
 class Song:
-    def __init__(self, line):
+    def __init__(self, line, online = False):
         split = line.split("\t")
         # [id, -, GSP, BSP, DSP, ESP, CSP, BDP, DDP, EDP, CDP, title, artist]
         #  0   1  2    3    4    5    6    7    8    9    10   11     12
         self.id = split[0]
         self.singles = list(map(lambda x: int(x), split[2:7]))
         self.doubles = list(map(lambda x: int(x), split[7:11]))
-        try:
-            self.title = fixtitle(split[11])
-        except:
-            self.title = "ERROR ERROR ERROR OH NO"
+
+        if online:
+            try:
+                self.title = fixtitle(split[11])
+            except:
+                self.title = "ERROR ERROR ERROR OH NO"
+        else:
+            self.title = translit(self.id)
+
         self.artist = split[12].strip()
 
     def charts_csv(self):
         result = ""
         for i in range(len(self.singles)):
             if self.singles[i] != -1:
-                result += "%s,, %s,, %s\n"%(self.title, s_diffs[i], str(self.singles[i]))
+                result += "%s [%s],, %s\n"%(self.title, s_diffs[i], str(self.singles[i]))
         for i in range(len(self.doubles)):
             if self.doubles[i] != -1:
-                result += "%s,, %s,, %s\n"%(self.title, d_diffs[i], str(self.doubles[i]))
+                result += "%s [%s],, %s\n"%(self.title, d_diffs[i], str(self.doubles[i]))
         return result
 
     def __repr__(self):
@@ -89,6 +94,20 @@ def fixtitle(title):
         result = getfirststring(searchheading)
 
     return result.replace("&amp;","&").replace("&#039;","'")
+
+translitDict = {}
+
+def translit(id):
+    if translitDict == {}:
+        f = open("song_list_fixed.csv")
+        for line in f.readlines():
+            if line[0] == "\ufeff":
+                line = line[1:]
+            line = line.strip()
+            firstcomma = line.find(",") #only separate at first comma
+            translitDict[line[:firstcomma]] = line[firstcomma+1:]
+    return translitDict[str(id)] #they're strings, probably not good
+
 
 def make_chart_list():
     f = open("master_music.txt")
