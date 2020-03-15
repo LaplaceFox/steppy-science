@@ -23,15 +23,19 @@ class Song:
 
         self.artist = split[12].strip()
 
-    def charts_csv(self):
-        result = ""
-        for i in range(len(self.singles)):
-            if self.singles[i] != -1:
-                result += "%s [%s],, %s\n"%(self.title, s_diffs[i], str(self.singles[i]))
-        for i in range(len(self.doubles)):
-            if self.doubles[i] != -1:
-                result += "%s [%s],, %s\n"%(self.title, d_diffs[i], str(self.doubles[i]))
-        return result
+    def charts(self, singles=True, doubles=True):
+        chart_list = []
+        if singles:
+            for i in range(len(self.singles)):
+                if self.singles[i] > 0:
+                    thischart = Chart(self.id, self.title, s_diffs[i], self.singles[i])
+                    chart_list.append(thischart)
+        if doubles:
+            for i in range(len(self.doubles)):
+                if self.doubles[i] > 0:
+                    thischart = Chart(self.id, self.title, d_diffs[i], self.doubles[i])
+                    chart_list.append(thischart)
+        return chart_list
 
     def __repr__(self):
         disp  = "Title: %s\n"%(self.title)
@@ -53,6 +57,18 @@ class Song:
         for i in range(len(d_diffs)):
             disp += "{}: {:>2}  ".format(d_diffs[i],doubles[i])
 
+        return disp
+
+class Chart:
+    def __init__(self, song_id, song_name, difficulty, diff_num):
+        self.id = str(song_id) + difficulty
+        self.name = "%s [%s]"%(song_name, difficulty)
+        self.diff_name = difficulty
+        self.diff_num = diff_num
+    def __repr__(self):
+        disp  = "ID: %s\n"%(self.id)
+        disp += "Title: %s\n"%(self.name)
+        disp += "Difficulty: %s %s"%(self.diff_name, int(self.diff_num))
         return disp
 
 def getfirststring(html):
@@ -109,14 +125,17 @@ def translit(id):
     return translitDict[str(id)] #they're strings, probably not good
 
 
-def make_chart_list():
+def make_chart_list(singles=True, doubles=True):
     f = open("master_music.txt")
     musiclines = f.readlines()
     f.close()
-    f = open("chart_list.csv","w")
+    f = open("chart_list.txt","w")
     for i in range(len(musiclines)):
-        print("[%s/%s]"%(str(i),str(len(musiclines))))
-        f.write(Song(musiclines[i]).charts_csv())
+        print("[%s/%s]"%(str(i+1),str(len(musiclines))))
+        chartlist = Song(musiclines[i]).charts(singles,doubles) #same args as given
+
+        for chart in chartlist:
+            f.write("%s;%s;%s;%s\n"%(chart.id, chart.name, chart.diff_name, chart.diff_num))
 
 def make_song_list():
     f = open("master_music.txt")
