@@ -70,6 +70,23 @@ class Chart:
         disp += "Title: %s\n"%(self.name)
         disp += "Difficulty: %s %s"%(self.diff_name, int(self.diff_num))
         return disp
+    def getScores(self):
+        song_id = self.id[:-3]
+        url = "http://skillattack.com/sa4/music.php?index=%s"%(song_id)
+
+        url = quote(url.encode('utf8'), ':/?=') #percent-encode the unicode characters
+        html = urlopen(url).read()
+        html_lines = html.splitlines()
+        target_variable = "dsScore%s"%(self.diff_name.lower().capitalize())
+
+        for line in html_lines:
+            if target_variable in str(line):
+                break        
+        scorestring = str(line[21:-2])
+        scorelist = scorestring.split("\'")[1::2] #every other item is just a comma
+
+        #remove all empty scores, remove the comma seperator, then convert to int
+        return list(map(lambda x: int(x.replace(",","")), filter(lambda x: x != "-", scorelist)))
 
 def getfirststring(html):
     result = ""
@@ -145,3 +162,7 @@ def make_song_list():
     for i in range(len(musiclines)):
         print("[%s/%s]"%(str(i),str(len(musiclines))))
         f.write("%s,,%s\n"%(str(i),Song(musiclines[i]).title))
+
+f = open("master_music.txt")
+musiclines = f.readlines()
+f.close()
