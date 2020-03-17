@@ -162,7 +162,3 @@ def make_song_list():
     for i in range(len(musiclines)):
         print("[%s/%s]"%(str(i),str(len(musiclines))))
         f.write("%s,,%s\n"%(str(i),Song(musiclines[i]).title))
-
-f = open("master_music.txt")
-musiclines = f.readlines()
-f.close()
