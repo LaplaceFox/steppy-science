@@ -1,0 +1,662 @@
+Metric used: (#MFC + 1*#L5P + 1*#SDP) / #scores
+Laplace's rule of succession used: Yes
+
+Let the beat hit em! (CLASSIC R&B STYLE) [ESP] : 1.30549
+Jam & Marmalade [DSP] : 1.28324
+PUT YOUR FAITH IN ME ~SATURDAY NIGHT MIX~ [DSP] : 1.20930
+Tomorrow Perfume [DSP] : 1.14530
+Mousou kanshou daishou renmei [DSP] : 1.08427
+Stay 4 Ever [DSP] : 1.03571
+MY SUMMER LOVE [DSP] : 1.01984
+You gotta move it (feat. Julie Rugaard) [DSP] : 1.01163
+LA BAMBA [DSP] : 1.01087
+Top The Charts [DSP] : 1.00391
+Private Eye [DSP] : 0.99692
+Try 2 Luv. U [ESP] : 0.99087
+Polyrhythm [DSP] : 0.97826
+Orenai heart [DSP] : 0.97674
+SANA MOLLETE NE ENTE [DSP] : 0.94785
+Monkey Punk [DSP] : 0.94565
+Dazzle [DSP] : 0.94175
+BAD GIRLS [ESP] : 0.93571
+Taj He Spitz (Tommie Sunshine's Brooklyn Fire Re-Touch) [DSP] : 0.91489
+Furisodation [DSP] : 0.89583
+Twin Bee ~Generation X~ [DSP] : 0.89412
+TEARS [DSP] : 0.89256
+Stomp to my beat [DSP] : 0.89091
+Why not [DSP] : 0.88889
+You are a Star [DSP] : 0.88362
+Slip Out [ESP] : 0.88073
+Polovtsian Dances And Chorus [DSP] : 0.85149
+THIS NIGHT [DSP] : 0.84916
+Resonance [DSP] : 0.84722
+Shades of Grey [DSP] : 0.84667
+Party Lights (Tommie Sunshine's Brooklyn Fire Remix) [DSP] : 0.84524
+Until the End [DSP] : 0.83673
+MARS WAR 3 [DSP] : 0.83333
+AFTER THE GAME OF LOVE [ESP] : 0.83173
+Puzzle [ESP] : 0.82038
+Rescue Me [DSP] : 0.81633
+DIGITAL LUV [DSP] : 0.81481
+In The Air [DSP] : 0.81308
+Till the lonely's gone [DSP] : 0.81132
+Stealth [DSP] : 0.80233
+GORGEOUS 2012 [DSP] : 0.80000
+"Every Day, Every Night (NM STYLE)" [ESP] : 0.79455
+CG Project [DSP] : 0.78571
+STARS (2nd NAOKI's style) [DSP] : 0.78151
+Funk Boogie [ESP] : 0.77346
+Raspberry Heart [ESP] : 0.76453
+Sync (EXTREME version) [DSP] : 0.76351
+Un deux trois [DSP] : 0.75912
+Share The Love [DSP] : 0.75610
+Let's Get Away [ESP] : 0.75168
+Wicked Plastik [DSP] : 0.74766
+Mind Parasite [DSP] : 0.74603
+ENDLESS [DSP] : 0.74497
+Decade [DSP] : 0.74176
+LOVE & JOY -Risk Junk MIX- [DSP] : 0.73239
+DIVE TO THE NIGHT [DSP] : 0.72973
+Something Just Like This (Alesso Remix) [DSP] : 0.72727
+PUT YOUR FAITH IN ME (DA's Twinkly Disco Remix) [DSP] : 0.72483
+LOVE IS ORANGE [ESP] : 0.72316
+JOKER [DSP] : 0.72222
+Dazzlin' Darlin-Akiba koubou mix- [DSP] : 0.71579
+Starry HEAVEN [DSP] : 0.71429
+I Need You [ESP] : 0.71256
+MAKE IT BETTER (So-REAL Mix) [DSP] : 0.71094
+HYSTERIA [DSP] : 0.71034
+TRUE LOVE [DSP] : 0.70925
+TOMORROW [DSP] : 0.70874
+MARIA (I believe... ) [DSP] : 0.70391
+One Sided Love [DSP] : 0.70100
+Qipchaq [DSP] : 0.69811
+MITOrete! Ibarakisshu dar~ling [DSP] : 0.69643
+Star Gate Heaven (FUTURE LOVE Mix) [DSP] : 0.69565
+Get On Da Floor [DSP] : 0.69444
+PUT YOUR FAITH IN ME ~SATURDAY NIGHT MIX~ [ESP] : 0.69176
+Forever Sunshine [ESP] : 0.69139
+Feelings Won't Fade (Extend Trance Mix) [DSP] : 0.68750
+VANITY ANGEL [DSP] : 0.68317
+Escape [DSP] : 0.67857
+Inspiration [ESP] : 0.67749
+Seasons [DSP] : 0.67647
+I feel ... [DSP] : 0.67442
+Shining [DSP] : 0.67442
+BALLAD FOR YOU~omoi no ame~ [DSP] : 0.67376
+Choo Choo TRAIN [ESP] : 0.66964
+Wings of an Angel (Fly With Me) [DSP] : 0.66443
+Flow [DSP] : 0.66176
+JoJo ~sono chi no sadame~ [DSP] : 0.65909
+LOVE & JOY [DSP] : 0.65574
+Dokidoki Valentine [DSP] : 0.65347
+Diamond Night [DSP] : 0.65323
+Take A Chance [ESP] : 0.64865
+STAY (Organic house Version) [ESP] : 0.64786
+A Stupid Barber [DSP] : 0.64390
+South [DSP] : 0.63975
+SP-TRIP MACHINE ~JUNGLE MIX~ [DSP] : 0.63190
+The Heavens Above [DSP] : 0.62766
+Dream Machine [DSP] : 0.61983
+LOVING YOU (Epidemik remix) [DSP] : 0.61350
+KISS KISS KISS Akiba koubou MIX [DSP] : 0.60633
+Get Back Up! [DSP] : 0.60606
+Sora e no katamichi kippu [DSP] : 0.60334
+SUPER STAR [DSP] : 0.60150
+Sukina koto dakede ii desu [DSP] : 0.60000
+Burst The Gravity [DSP] : 0.59794
+Ubertreffen [DSP] : 0.59281
+Freeze [DSP] : 0.59200
+INSIDE YOUR HEART [ESP] : 0.58904
+Heatstroke [CSP] : 0.58889
+IRON HEART [DSP] : 0.58763
+Taking It To The Sky [ESP] : 0.58647
+SKY HIGH (20th Anniversary Mix) [DSP] : 0.58475
+Air [ESP] : 0.58299
+Future gazer [ESP] : 0.58232
+Trust -DanceDanceRevolution mix- [DSP] : 0.58219
+Mirai (da) FUTURE [DSP] : 0.57878
+LONG TRAIN RUNNIN' (20th Anniversary Mix) [DSP] : 0.57724
+LOVE AGAIN TONIGHT ~For Melissa MIX~ [DSP] : 0.57432
+Taj He Spitz [ESP] : 0.57282
+SUPER HERO [DSP] : 0.57235
+Silent Hill [DSP] : 0.57143
+PUT YOUR FAITH IN ME [ESP] : 0.56880
+Sky Is The Limit [DSP] : 0.56863
+BE LOVIN [DSP] : 0.56809
+SEXY PLANET (FROM NONSTOP MEGAMIX) [CSP] : 0.56688
+Someday... [ESP] : 0.56652
+Fever [ESP] : 0.56422
+Flourish [DSP] : 0.56140
+Think ya better D [ESP] : 0.56138
+Summer Fairytale [ESP] : 0.56085
+Beautiful Inside (Cube::Hard Mix) [ESP] : 0.56044
+Dance Celebration [DSP] : 0.56034
+Elysium [DSP] : 0.55975
+GORGEOUS 2012 [ESP] : 0.55799
+Leaving… [DSP] : 0.55629
+Fly away -mix del matador- [DSP] : 0.55625
+New Beginning [DSP] : 0.55556
+ACROSS WORLD [DSP] : 0.55484
+Chu~in bunny [DSP] : 0.55440
+All My Love [DSP] : 0.55102
+BRILLIANT 2U (Orchestra Groove) [DSP] : 0.54959
+COME BACK TO MY HEART [DSP] : 0.54959
+FIRE [DSP] : 0.54902
+Happy [DSP] : 0.54517
+SOUL CRASH [DSP] : 0.54478
+La Bamba [DSP] : 0.54444
+Alone [DSP] : 0.54255
+MAKE IT BETTER [DSP] : 0.54185
+Heatstroke [DSP] : 0.53968
+Find You Again [DSP] : 0.53933
+SODA GALAXY [DSP] : 0.53812
+Our Soul [DSP] : 0.53807
+Uranus [DSP] : 0.53636
+Back In Your Arms [DSP] : 0.53571
+Go Go Girls&Boys! [DSP] : 0.53546
+INTO YOUR HEART (Ruffage remix) [DSP] : 0.53158
+CHOCOLATE PHILOSOPHY [DSP] : 0.53004
+MAXIMIZER [DSP] : 0.53000
+SO IN LOVE [ESP] : 0.52916
+Shine [ESP] : 0.52861
+CUTIE CHASER (MORNING MIX) [ESP] : 0.52450
+Slip Out (bounce in beat mix) [ESP] : 0.52334
+Frozen Ray ~for EXTREME~ [DSP] : 0.52198
+Desert Journey [DSP] : 0.52174
+Colors ~for EXTREME~ [DSP] : 0.52113
+GENOM SCREAMS [DSP] : 0.52020
+Chance and Dice [ESP] : 0.51903
+Saturday Night Love [ESP] : 0.51810
+Waiting 4 u [DSP] : 0.51773
+Happy Wedding [ESP] : 0.51359
+Freeway Shuffle [DSP] : 0.50909
+CELEBRATE NITE [DSP] : 0.50870
+PUT YOUR FAITH IN ME (Jazzy Groove) [ESP] : 0.50839
+STILL IN MY HEART [DSP] : 0.50725
+Hikari eureka [DSP] : 0.50718
+30 Lives (Up-Up-Down-Dance Mix) [ESP] : 0.50600
+LEVEL UP [DSP] : 0.50417
+DANCE ALL NIGHT (DDR EDITION) [DSP] : 0.50380
+BALLAD THE FEATHERS [CSP] : 0.50314
+TRIP MACHINE [DSP] : 0.50186
+Rhythms Inside [ESP] : 0.50150
+Flight of the Phoenix [ESP] : 0.50133
+La libertad [DSP] : 0.50000
+Aftershock!! [DSP] : 0.50000
+Yeah! Yeah! [DSP] : 0.49477
+WILD SIDE [DSP] : 0.49444
+BURNIN' THE FLOOR (BLUE FIRE mix) [CSP] : 0.49387
+SEXY PLANET [DSP] : 0.49333
+"DYNAMITE RAVE (""AIR"" Special)" [CSP] : 0.49257
+BURNIN' THE FLOOR [DSP] : 0.49219
+Stoic (EXTREME version) [DSP] : 0.49171
+CROSS [DSP] : 0.49138
+Oarfish [DSP] : 0.49138
+Tracers (4Beat Remix) [ESP] : 0.49111
+STARS (Re-tuned by HAL) -DDR EDITION- [ESP] : 0.49087
+Sync (EXTREME version) [ESP] : 0.48950
+KEEP ON MOVIN' [ESP] : 0.48906
+THE SHINING POLARIS [ESP] : 0.48785
+TIERRA BUENA [DSP] : 0.48624
+Summer fantasy (Darwin remix) [DSP] : 0.48583
+SEDUCTION [DSP] : 0.48529
+Polyrhythm [ESP] : 0.48521
+Brazilian Anthem [DSP] : 0.48333
+TRIP MACHINE CLIMAX [DSP] : 0.48252
+E-motion [ESP] : 0.48208
+Sennen no kotowari [DSP] : 0.48098
+Bombay Bomb [DSP] : 0.48077
+Malacca [ESP] : 0.47907
+50th Memorial Songs -futari no toki ~under the cherry blossoms~- [DSP] : 0.47761
+321 STARS [DSP] : 0.47701
+Tiger rampage [DSP] : 0.47598
+Party Rock Anthem [DSP] : 0.47552
+HIGHER [ESP] : 0.47514
+DROP THE BOMB (SyS.F. Mix) [ESP] : 0.47444
+Mugen no hikari [DSP] : 0.47111
+Music In The Rhythm [DSP] : 0.47059
+Bad Routine [ESP] : 0.46967
+La Senorita [DSP] : 0.46875
+TIME [ESP] : 0.46814
+Resurrection [ESP] : 0.46546
+Play Hard [DSP] : 0.46535
+Baile Le Samba [DSP] : 0.46237
+L'amour et la liberte(DDR Ver.) [DSP] : 0.46087
+The Light [DSP] : 0.45822
+Une mage blanche [DSP] : 0.45783
+One Sided Love [ESP] : 0.45485
+Poseidon (kors k mix) [DSP] : 0.45185
+Nijiiro no hana [DSP] : 0.45133
+LEADING CYBER [DSP] : 0.45098
+DOWNER & UPPER [DSP] : 0.45062
+Murmur twins [DSP] : 0.45000
+ECSTASY [DSP] : 0.44961
+SLoWMoTIoN [DSP] : 0.44958
+Tomorrow Perfume [ESP] : 0.44944
+LOVE2 SUGAR [ESP] : 0.44850
+Exotic ethnic [DSP] : 0.44813
+LoveLove DokiDoki [DSP] : 0.44737
+Un deux trois [ESP] : 0.44665
+Esrev:eR [DSP] : 0.44637
+HEARTBREAK (Sound Selektaz remix) [ESP] : 0.44578
+Dokusenyoku [DSP] : 0.44545
+Special One [DSP] : 0.44444
+SUN2 SUMMER STEP! [DSP] : 0.44388
+Boom Boom Dollar (Red Monster Mix) [ESP] : 0.44041
+Electro Tuned (the SubS mix) [DSP] : 0.43966
+Wow Wow VENUS [DSP] : 0.43939
+Era (nostalmix) [DSP] : 0.43791
+More One Night [ESP] : 0.43761
+Love Shine wonderful mix [DSP] : 0.43725
+Sweets wa tomaranai [DSP] : 0.43694
+Votum stellarum -forest 25 RMX- [DSP] : 0.43662
+A thing called LOVE [ESP] : 0.43558
+IN THE ZONE [ESP] : 0.43439
+South [ESP] : 0.43417
+Dream of love [ESP] : 0.43411
+WH1TE RO5E [DSP] : 0.43357
+AM-3P -303 BASS MIX- [DSP] : 0.43357
+Dance Dance Revolution [DSP] : 0.43333
+Future gazer [CSP] : 0.43128
+Kono aozora no shita de [DSP] : 0.43053
+Koi no puzzle magic [DSP] : 0.43003
+Believe [DSP] : 0.42922
+V ~for EXTREME~ [DSP] : 0.42456
+Dance Floor [ESP] : 0.42377
+A Stupid Barber [ESP] : 0.42286
+The flower in your smile [ESP] : 0.42276
+Everything I Need [ESP] : 0.42234
+PARANOIA EVOLUTION [DSP] : 0.42205
+1998 [ESP] : 0.42184
+TRIP MACHINE ~luv mix~ [DSP] : 0.42157
+Love Again [ESP] : 0.42135
+Children of the Beat [DSP] : 0.42035
+BRILLIANT 2U (Orchestra Groove) [ESP] : 0.41910
+AFRONOVA PRIMEVAL [DSP] : 0.41872
+BUTTERFLY (20th Anniversary Mix) [DSP] : 0.41784
+Theory of Eternity [DSP] : 0.41711
+CAN'T STOP FALLIN' IN LOVE -super euro version- [ESP] : 0.41586
+Ticket to Bombay [ESP] : 0.41549
+Can Be Real [ESP] : 0.41379
+Hopeful [DSP] : 0.41309
+Twin memories W [DSP] : 0.41256
+Struggle [DSP] : 0.41195
+PASSION OF LOVE [ESP] : 0.41165
+Escape [ESP] : 0.41111
+Freeway Shuffle [ESP] : 0.41086
+TRIP MACHINE [ESP] : 0.40876
+Switch [ESP] : 0.40859
+Real-high-SPEED [ESP] : 0.40706
+AM-3P [DSP] : 0.40670
+Only my railgun [ESP] : 0.40622
+TimeHollow [ESP] : 0.40619
+Yi-er fanclub [DSP] : 0.40534
+Chikara [DSP] : 0.40517
+New Gravity [DSP] : 0.40498
+CaptivAte ~chikai~ [DSP] : 0.40476
+Smiling Passion [DSP] : 0.40444
+Zutto mitsumeteite (Ryu Remix) [DSP] : 0.40334
+Scarlet Moon [DSP] : 0.40326
+Colors ~for EXTREME~ [ESP] : 0.40171
+Electrified [ESP] : 0.40075
+Sweet Sweet Magic [DSP] : 0.40000
+Dispersion Star [DSP] : 0.40000
+SEDUCTION (Vocal Remix) [DSP] : 0.39865
+STARS (2nd NAOKI's style) [ESP] : 0.39659
+PARANOiA KCET ~clean mix~ [DSP] : 0.39404
+Rain of sorrow [DSP] : 0.39259
+DoLL [DSP] : 0.39130
+F4SH10N [DSP] : 0.39118
+Roshin yuukai [DSP] : 0.38936
+MAKE IT BETTER (So-REAL Mix) [ESP] : 0.38889
+All My Love [ESP] : 0.38874
+Sakura Reflection [DSP] : 0.38750
+MAX LOVE [DSP] : 0.38621
+SP-TRIP MACHINE ~JUNGLE MIX~ [ESP] : 0.38533
+Hanamaru pippi wa yoiko dake [DSP] : 0.38432
+Printemps [DSP] : 0.38361
+I'M GONNA GET YOU! [ESP] : 0.38346
+Oboro (dj TAKA Remix) [DSP] : 0.38281
+DXY! [DSP] : 0.38158
+Mythomane [DSP] : 0.38095
+Holic [DSP] : 0.37970
+Kiss me all night long [ESP] : 0.37913
+Silent Hill (3rd christmas mix) [CSP] : 0.37754
+Seule [DSP] : 0.37671
+Till the lonely's gone [ESP] : 0.37665
+Dazzle [ESP] : 0.37577
+Kyun kyun bakkyun LOVE [DSP] : 0.37500
+Show me your moves [DSP] : 0.37419
+Koishigure [DSP] : 0.37265
+50th Memorial Songs -The BEMANI History- [DSP] : 0.37255
+Ever snow [DSP] : 0.37168
+39 [DSP] : 0.37107
+IF YOU WERE HERE(L.E.D.-G STYLE REMIX) [DSP] : 0.37069
+Dance Celebration (System 7 Remix) [DSP] : 0.37008
+Ace out [DSP] : 0.36946
+Jewelry days [DSP] : 0.36697
+CAN'T STOP FALLIN' IN LOVE ~SPEED MIX~ [DSP] : 0.36601
+Crazy Shuffle [DSP] : 0.36552
+Heron [DSP] : 0.36397
+BURNIN' THE FLOOR [ESP] : 0.36374
+BRILLIANT 2U [CSP] : 0.36200
+Flow (Jammin' Ragga Mix) [DSP] : 0.36170
+Cosmic Hurricane [DSP] : 0.36134
+GOLD RUSH [DSP] : 0.36071
+The Night Away (MK Remix) [DSP] : 0.36061
+STILL IN MY HEART [ESP] : 0.35936
+Tenjou no hoshi ~reimeiki~ [DSP] : 0.35878
+My Only Shining Star [ESP] : 0.35821
+Hunny Bunny [DSP] : 0.35577
+Eternal Summer [DSP] : 0.35366
+Trust -DanceDanceRevolution mix- [ESP] : 0.35328
+Tell me what to do [DSP] : 0.35294
+Gotta Dance [ESP] : 0.35294
+MIDNIGHT SPECIAL [DSP] : 0.35185
+"*Hello, planet." [DSP] : 0.35165
+CHOCOLATE PHILOSOPHY [ESP] : 0.35159
+Onegai darlin' [DSP] : 0.34852
+KEEP ON MOVIN' (Y&Co. DJ BOSS remix) [DSP] : 0.34615
+Sakura storm [ESP] : 0.34608
+Rainbow rainbow [ESP] : 0.34606
+Fuurin hanabi [DSP] : 0.34476
+Waiting [DSP] : 0.34221
+SUNKiSS DROP [DSP] : 0.34158
+FUJIMORI -matsuri- FESTIVAL [DSP] : 0.33992
+DANCE ALL NIGHT (DDR EDITION) [ESP] : 0.33970
+CANDY<3 [ESP] : 0.33932
+Do The Evolution [ESP] : 0.33871
+STARS (Re-tuned by HAL) -DDR EDITION- [DSP] : 0.33871
+REBORN MAGIC [ESP] : 0.33843
+Programmed Universe [DSP] : 0.33835
+Diamond Dust [ESP] : 0.33813
+More One Night [DSP] : 0.33619
+Yamato nadenade Kaguya-hime [DSP] : 0.33604
+Gekiatsu majiyaba cheer girl [DSP] : 0.33557
+No.13 [DSP] : 0.33520
+Nijiiro [DSP] : 0.33449
+Kagerou [ESP] : 0.33400
+Mousou zei [DSP] : 0.33333
+HANDS UP IN THE AIR [DSP] : 0.33333
+M.A.Y.U. [DSP] : 0.33333
+WILD RUSH (FROM NONSTOP MEGAMIX) [CSP] : 0.33196
+Don't Stop! ~AMD 2nd MIX~ [ESP] : 0.33107
+The Island Song [ESP] : 0.32967
+You gotta move it (feat. Julie Rugaard) [ESP] : 0.32819
+LOVE SHINE [ESP] : 0.32688
+B4U (B4 ZA BEAT MIX) [CSP] : 0.32662
+A Brighter Day [ESP] : 0.32573
+A [DSP] : 0.32500
+The Lonely Streets [ESP] : 0.32464
+TSUBASA [DSP] : 0.32394
+Rensen ryouran [DSP] : 0.32394
+BRILLIANT 2U [ESP] : 0.32261
+Kunshi ayauku mo chikou yore [DSP] : 0.32174
+Flourish [ESP] : 0.31977
+IF YOU WERE HERE [ESP] : 0.31970
+La Senorita Virtual [DSP] : 0.31861
+ZERO [DSP] : 0.31858
+CENTAUR [DSP] : 0.31746
+Stomp to my beat [ESP] : 0.31737
+Volcano [DSP] : 0.31707
+New Generation [DSP] : 0.31597
+Happy koi lovely time!! [DSP] : 0.31507
+Fuurin hanabi [ESP] : 0.31458
+S-A-G-A [DSP] : 0.31455
+Beautiful Dream [DSP] : 0.31373
+MOON [ESP] : 0.31347
+Role-playing game [DSP] : 0.31343
+I Want You To Know [DSP] : 0.31338
+HAPPY ANGEL [DSP] : 0.31202
+Pink Rose [ESP] : 0.31179
+Rin to shite saku hana no gotoku ~HinaBitter edition~ [DSP] : 0.31165
+Buraikku jikorizer [DSP] : 0.31143
+Hillbilly Shoes [DSP] : 0.31048
+HYSTERIA 2001 [CSP] : 0.30921
+Dead Heat [DSP] : 0.30868
+Melody Life [ESP] : 0.30855
+Liar dance [DSP] : 0.30769
+AFRONOVA [DSP] : 0.30709
+Tatakae! Dadandarn V [DSP] : 0.30677
+TWINKLE HEART [CSP] : 0.30650
+Arifureta sekai seifuku [DSP] : 0.30649
+SUPER STAR (FROM NONSTOP MEGAMIX) [CSP] : 0.30565
+.59 [DSP] : 0.30519
+Dummy [ESP] : 0.30519
+Thank You Merry Christmas [DSP] : 0.30412
+Reiwa no kuni [ESP] : 0.30341
+Dokidoki ryuusei trap girl!! [DSP] : 0.30208
+Clarity [ESP] : 0.30159
+Somehow You Found Me [DSP] : 0.30023
+Crazy Control [ESP] : 0.29752
+Silent Hill [ESP] : 0.29487
+Hoshikuzu no kiroku [DSP] : 0.29412
+TOMORROW [ESP] : 0.29317
+Take A Step Forward [DSP] : 0.29288
+Time Of Our Lives [DSP] : 0.29130
+Shut Up and Dance [DSP] : 0.29130
+Saturn [DSP] : 0.29091
+AWAKE [DSP] : 0.28903
+Miracle Moon ~L.E.D.LIGHT STYLE MIX~ [ESP] : 0.28877
+Kiken na kajitsu [DSP] : 0.28846
+Mind game [DSP] : 0.28793
+MAKE A JAM! [ESP] : 0.28261
+Habibe (Antuh muhleke) [DSP] : 0.28042
+A Geisha's Dream [DSP] : 0.28000
+DESTINY [ESP] : 0.27927
+Shakariki relation [DSP] : 0.27778
+Shizuku [DSP] : 0.27660
+Yakyuu no asobikata soshite sono rekishi ~ketteiban~ [DSP] : 0.27619
+PARANOiA Rebirth [DSP] : 0.27547
+Drop The Bounce [DSP] : 0.27465
+INNOCENCE OF SILENCE [DSP] : 0.27429
+Starry Sky [DSP] : 0.27219
+Sakura Sunrise [DSP] : 0.27126
+Dancer in the flare [DSP] : 0.27044
+STERLING SILVER [DSP] : 0.27016
+SigSig [CSP] : 0.26852
+GRADIUSIC CYBER ~AMD G5 MIX~ [DSP] : 0.26829
+"ALL MY HEART -kono koi ni, watashi no subete wo kakeru-" [DSP] : 0.26793
+FIRE FIRE [DSP] : 0.26790
+Maware! Setsugetsuka [DSP] : 0.26781
+DREAMING-ING!! [DSP] : 0.26620
+ABSOLUTE [DSP] : 0.26549
+Horatio [DSP] : 0.26515
+High School Love [DSP] : 0.26501
+TRUE LOVE [ESP] : 0.26433
+Going up [DSP] : 0.26316
+In love wit you [ESP] : 0.26304
+DROP THE BOMB [ESP] : 0.26269
+Towards the TOWER [DSP] : 0.25773
+Star Gate Heaven [ESP] : 0.25768
+Quick Master [DSP] : 0.25688
+50th Memorial Songs -Flagship medley- [DSP] : 0.25620
+"Blind Justice ~Torn souls, Hurt Faiths~" [DSP] : 0.25614
+Monkey Punk [ESP] : 0.25450
+Who floats [DSP] : 0.25424
+Dazzlin' Darlin [DSP] : 0.25381
+Chu~in bunny [ESP] : 0.25350
+ECSTASY [ESP] : 0.25320
+SigSig [DSP] : 0.25293
+Aoi shoudou ~for EXTREME~ [ESP] : 0.25148
+Dreamin' [ESP] : 0.25065
+Siberite [DSP] : 0.25061
+Kakumei [DSP] : 0.24895
+Baby step [DSP] : 0.24845
+Second spring storm [DSP] : 0.24841
+Colorful pastel [DSP] : 0.24828
+PARANOiA ETERNAL [DSP] : 0.24696
+8000000 [DSP] : 0.24581
+Ryouran hit chart [DSP] : 0.24540
+Ikareru ookina shiroi uma [DSP] : 0.24468
+New Rules [ESP] : 0.24435
+Onnakotoba no shoushitsu [DSP] : 0.24286
+Synergy For Angels [DSP] : 0.24190
+You [ESP] : 0.24082
+Sola [DSP] : 0.24000
+Deadball de homerun [DSP] : 0.23899
+Small Steps [ESP] : 0.23850
+HYPER EUROBEAT [ESP] : 0.23810
+Sweet Rain [DSP] : 0.23782
+TECH-NOID [DSP] : 0.23614
+Fly far bounce [DSP] : 0.23370
+Jane jana [ESP] : 0.23328
+Break Free [DSP] : 0.23276
+Right on time (Ryu Remix) [DSP] : 0.23242
+Mahou no tamago ~Cocona ELECTRO POP edition~ [DSP] : 0.23235
+Neko*neko [DSP] : 0.23194
+Metsubou tenshi nikokyuppin [DSP] : 0.23101
+Rin to shite saku hana no gotoku [DSP] : 0.23077
+AFRONOVA (FROM NONSTOP MEGAMIX) [CSP] : 0.23034
+In The Breeze [DSP] : 0.23022
+AM-3P -303 BASS MIX- [ESP] : 0.22945
+On The Break [DSP] : 0.22939
+Happy synthesizer [DSP] : 0.22914
+TSUGARU [DSP] : 0.22905
+MAGIC PARADE [ESP] : 0.22748
+CUTIE CHASER [ESP] : 0.22715
+Seiza ga koishita shunkan wo. [DSP] : 0.22649
+Strobe Girl [DSP] : 0.22642
+B4U [ESP] : 0.22642
+KUNG FU FIGHTING [CSP] : 0.22535
+Alstroemeria (walk with you remix) [DSP] : 0.22486
+Daikenkai [DSP] : 0.22477
+SABER WING (satellite silhouette remix) [DSP] : 0.22414
+Chihou sousei chikuwactics [DSP] : 0.22379
+Follow Tomorrow [DSP] : 0.22306
+Dragon Blade [DSP] : 0.22162
+50th Memorial Songs -Beginning Story- [DSP] : 0.22026
+Snow prism [DSP] : 0.22008
+DYNAMITE RAVE [DSP] : 0.21945
+Theory of Eternity [CSP] : 0.21934
+Star Trail [DSP] : 0.21859
+Flow (Scotty D. revisits U1) [DSP] : 0.21831
+Shunpuu blowing wind [DSP] : 0.21818
+Tribe [ESP] : 0.21759
+PARANOiA MAX ~DIRTY MIX~ [DSP] : 0.21678
+Second Heaven [DSP] : 0.21575
+BRILLIANT 2U (K.O.G G3 MIX) [CSP] : 0.21552
+GRADUATION ~sorezore no ashita~ [ESP] : 0.21467
+REVOLUTIONARY ADDICT [DSP] : 0.21429
+Sayonara trip ~Natsuhi EDM edition~ [DSP] : 0.21368
+Lost one no goukoku [DSP] : 0.21338
+Bass 2 bass [DSP] : 0.21309
+Kouen [DSP] : 0.21270
+Xenon [DSP] : 0.21131
+Sumidagawa karenka [DSP] : 0.21098
+HAVE YOU NEVER BEEN MELLOW (20th Anniversary Mix) [ESP] : 0.20898
+Find The Way [DSP] : 0.20743
+TIERRA BUENA [ESP] : 0.20696
+Gensoukei sekaishuufuku shoujo [DSP] : 0.20563
+RED ZONE [DSP] : 0.20495
+BURNING HEAT! (3 Option MIX) [DSP] : 0.20398
+AA [DSP] : 0.20352
+Oboro [DSP] : 0.20326
+Nou shou sakuretsu girl [DSP] : 0.20108
+Adularia [DSP] : 0.20033
+BeBeatStream [DSP] : 0.20000
+LOVE THIS FEELIN' [DSP] : 0.19890
+Your Angel [ESP] : 0.19880
+FUNKY SUMMER BEACH [DSP] : 0.19797
+Condor [DSP] : 0.19792
+MIDNIGHT SPECIAL [ESP] : 0.19728
+Youkoso Japari Park e [DSP] : 0.19585
+Sephirot [DSP] : 0.19493
+Seta Para Cima [DSP] : 0.19431
+Asairo no kamihikouki [DSP] : 0.19198
+Homeneko sensation [DSP] : 0.19192
+Poseidon [DSP] : 0.19136
+Plain Asia -PHQ remix- [DSP] : 0.19099
+Shiawase ni nareru kakushi command ga arurashii [DSP] : 0.19048
+Luminous days [DSP] : 0.18824
+Squeeze [DSP] : 0.18750
+Lucky lucky [DSP] : 0.18679
+Kakumei passionate [DSP] : 0.18667
+Trickster [ESP] : 0.18478
+Chikara [ESP] : 0.18475
+HYENA [DSP] : 0.18286
+Chronos (walk with you remix) [DSP] : 0.18182
+Chocolate smile [DSP] : 0.18142
+I'm so Happy [DSP] : 0.18080
+Beautiful receipt [DSP] : 0.18053
+Fuchinkan CANDY [DSP] : 0.18026
+INSERTiON [DSP] : 0.17986
+Mikeneko rock [DSP] : 0.17791
+Far east nightbird [DSP] : 0.17750
+Skywalking [DSP] : 0.17717
+Lift You Up [ESP] : 0.17635
+DROP OUT [DSP] : 0.17612
+Juuniseiza no seiiki [DSP] : 0.17500
+CURUS [ESP] : 0.17353
+Rin to shite saku hana no gotoku [ESP] : 0.17330
+Natsuiro DIARY -DDR mix- [DSP] : 0.17163
+Wake Me Up [DSP] : 0.17087
+EDM jumpers [DSP] : 0.16886
+Meumeupettantan!! [DSP] : 0.16877
+Back In Your Arms [ESP] : 0.16854
+Ha-lle-lu-jah [DSP] : 0.16688
+Mirai prism [ESP] : 0.16667
+Crimson gate [DSP] : 0.16562
+Electric Dance System Music [DSP] : 0.16554
+Netsujou no zapadeado [DSP] : 0.16410
+Amalgamation [DSP] : 0.16393
+Marisa wa taihen na mono wo nusunde ikimashita [DSP] : 0.16327
+Heatstroke [ESP] : 0.16241
+No Tears Left to Cry [ESP] : 0.16228
+Cirno no perfect sansuu kyoushitsu [DSP] : 0.16203
+Ronron e rairairai! [DSP] : 0.16081
+Iro wa nioedo chirinuru wo [DSP] : 0.16069
+Renaikansoku [DSP] : 0.16054
+DOWNER & UPPER [CSP] : 0.16040
+Nightbird lost wing [DSP] : 0.15909
+"Help me, ERINNNNNN!!" [DSP] : 0.15672
+Alien alien [DSP] : 0.15480
+Chronos [DSP] : 0.15354
+La Senorita [ESP] : 0.15343
+Smooooch [CSP] : 0.15329
+#OurMemories [DSP] : 0.15260
+Something Just Like This (Alesso Remix) [ESP] : 0.15187
+Xepher [DSP] : 0.15059
+Gekkou chou [ESP] : 0.14897
+South [CSP] : 0.14791
+Rokuchounen to ichiya monogatari [DSP] : 0.14464
+The Wind of Gold [DSP] : 0.14135
+FLOWER [DSP] : 0.14060
+Memeshikute [CSP] : 0.14000
+Grip & Break down !! - SDVX Edit. - [DSP] : 0.13711
+AM-3P (AM EAST mix) [CSP] : 0.13599
+Hatsune Miku no shoushitsu [DSP] : 0.13408
+Monkey Business [DSP] : 0.13376
+Nagisa no koakuma lovely~radio [CSP] : 0.12936
+Chikuwa parfait da yo CKP [DSP] : 0.12821
+Bassdrop freaks [DSP] : 0.12553
+PARANOiA [DSP] : 0.12195
+Din Don Dan [ESP] : 0.12095
+Across the nightmare [DSP] : 0.11245
+HEART BEAT FORMULA [DSP] : 0.11228
+Kurokami midareshi shura to narite ~Rin edition~ [DSP] : 0.11174
+BALLAD THE FEATHERS [ESP] : 0.11170
+Determination [DSP] : 0.11111
+Himawari sunset [DSP] : 0.10989
+Sousei note [DSP] : 0.10947
+Pa pi pu Yeah! [DSP] : 0.10832
+Rejoin [DSP] : 0.10814
+SABER WING [DSP] : 0.10795
+Luckgakist [DSP] : 0.10656
+Abyss [ESP] : 0.10633
+Cirno no perfect sansuu kyoushitsu (EDM REMIX) [DSP] : 0.10538
+Seiten Bon Voyage [DSP] : 0.10256
+Kono ko no nanatsu no oiwai ni [DSP] : 0.10123
+LOVE IS THE POWER -Re:born- [ESP] : 0.09840
+Setsuna trip [DSP] : 0.09553
+Bad Apple!! feat. nomico [DSP] : 0.09063
+Daily Lunch Special [DSP] : 0.09027
+WILD RUSH [ESP] : 0.09020
+SHION [DSP] : 0.08952
+DEAD END [DSP] : 0.08866
+Trim [DSP] : 0.06907
+Ama no jyaku [DSP] : 0.06851
+Otome ryouran mai sakihokore [DSP] : 0.05959
+Houkago stride [DSP] : 0.05556
+Cytokinesis [DSP] : 0.04514
